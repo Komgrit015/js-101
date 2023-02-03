@@ -1,7 +1,7 @@
 # js-101
 JavaScript for Beginner 
 
-การประกาศตัวแปร Variables 
+การประกาศตัวแปร Variables //first commit
 
 
 
