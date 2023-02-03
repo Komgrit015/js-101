@@ -38,6 +38,6 @@ number.push(2); //การเพิ่มค่าใน Array
 console.log(number);
 
 
-
+ 
  
 
