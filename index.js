@@ -34,6 +34,10 @@ const number = [5, 10, 15, 20]; // การสร้าง Array
 console.log(number);
 console.log(number[2]); //การเข้าถึง index ใน array
 
+number.push(2); //การเพิ่มค่าใน Array
+console.log(number);
+
+
 
  
 
