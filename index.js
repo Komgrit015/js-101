@@ -35,5 +35,5 @@ console.log(number);
 console.log(number[2]); //การเข้าถึง index ใน array
 
 
-
+ 
 
