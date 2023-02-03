@@ -8,6 +8,8 @@
 
 // console.log(myName, height, isMale, city, bigNumber);
 
+/* ===================================================================== */
+
 /* Object */
 
 // const person = {
@@ -25,6 +27,9 @@
 // person.weight = 70; //การเพิ่มค่าเข้าไปใน object
 // console.log(person);
 
+/* ===================================================================== */
+
+
 /* Array */
 
 // const number = [5, 10, 15, 20]; // การสร้าง Array
@@ -34,9 +39,12 @@
 // number.push(2); //การเพิ่มค่าใน Array
 // console.log(number);
 
+/* ===================================================================== */
+
+
 /* Conditions */
 
-let passwords = "";
+// let passwords = "";
 
 // 1 Conditions
 // if (passwords.length >= 8) {
@@ -54,10 +62,23 @@ let passwords = "";
 
 // Check value is null
 
-if (passwords === "") {
-  console.log("password is required");
-} else if (passwords.length >= 8 && passwords.length <= 12) {
-  console.log("password is valid");
-} else {
-  console.log("password is invalid");
-}
+// if (passwords === "") {
+//   console.log("password is required");
+// } else if (passwords.length >= 8 && passwords.length <= 12) {
+//   console.log("password is valid");
+// } else {
+//   console.log("password is invalid");
+// }
+
+/* ===================================================================== */
+
+/* Functions */
+
+// function calculateVat(money, vat){
+//     return(money * vat) / 100;
+// }
+
+// const totalVat = calculateVat(100, 7);
+// console.log(totalVat);
+
+/* ===================================================================== */
