@@ -1,4 +1,4 @@
-// Variables 
+/* Variables */
 
 // const myName = 'Komgrit' ;
 // let height = 175 ;
@@ -8,36 +8,56 @@
 
 // console.log(myName, height, isMale, city, bigNumber);
 
+/* Object */
 
+// const person = {
+//   name: "Komgrit",
+//   height: 175,
+//   city: "Bangkok",
+// };
 
-// Object 
+// console.log(person); //การเข้าถึง object
+// console.log(person.name); //การเข้าถึง property ใน object
 
-const person = {
-    name: 'Komgrit',
-    height: 175,
-    city: 'Bangkok'
-};
+// person.height = 180; //การเปลี่ยนค่า property
+// console.log(person);
 
-console.log(person); //การเข้าถึง object
-console.log(person.name); //การเข้าถึง property ใน object
+// person.weight = 70; //การเพิ่มค่าเข้าไปใน object
+// console.log(person);
 
-person.height = 180; //การเปลี่ยนค่า property
-console.log(person);
+/* Array */
 
-person.weight = 70; //การเพิ่มค่าเข้าไปใน object
-console.log(person);
+// const number = [5, 10, 15, 20]; // การสร้าง Array
+// console.log(number);
+// console.log(number[2]); //การเข้าถึง index ใน array
 
+// number.push(2); //การเพิ่มค่าใน Array
+// console.log(number);
 
-// Array 
+/* Conditions */
 
-const number = [5, 10, 15, 20]; // การสร้าง Array
-console.log(number);
-console.log(number[2]); //การเข้าถึง index ใน array
+let passwords = "";
 
-number.push(2); //การเพิ่มค่าใน Array
-console.log(number);
+// 1 Conditions
+// if (passwords.length >= 8) {
+//   console.log("password is valid");
+// } else {
+//   console.log("password is invalid");
+// }
 
+// 2 Conditions
+// if (passwords.length >= 8 && passwords.length <= 12) {
+//     console.log("password is valid");
+//   } else {
+//     console.log("password is invalid");
+//   }
 
- 
- 
+// Check value is null
 
+if (passwords === "") {
+  console.log("password is required");
+} else if (passwords.length >= 8 && passwords.length <= 12) {
+  console.log("password is valid");
+} else {
+  console.log("password is invalid");
+}
